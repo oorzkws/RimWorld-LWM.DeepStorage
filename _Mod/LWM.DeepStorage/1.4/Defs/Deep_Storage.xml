@@ -8,7 +8,7 @@
 <ThingDef Name="OPTIONAL-Unique_Name-Optional_but_you_can_use_it_as_ParentName_later_if_you_want"
             ParentName="LWM_DeepStorage"> - ParentName="LWM_DeepStorage" is NOT optional
   <defName>YourTag_Unique_defName_goes_here</defName> - not user visible.  Only _ and letters; *no numbers*
-  <label>Furniture Name (for humans to read)</label>
+  <label>furniture name (for humans to read)</label>
   <description>A short description.
 
 This template demonstrates that whitespace is obeyed in the description.\n\nSo are newline characters</description>
@@ -197,6 +197,7 @@ This template demonstrates that whitespace is obeyed in the description.\n\nSo a
         <filter>
         </filter>
       </defaultStorageSettings>
+      <paintable>true</paintable>
     </building>
     <comps>
       <!--<li Class="LWM.DeepStorage.Properties">
@@ -209,7 +210,7 @@ This template demonstrates that whitespace is obeyed in the description.\n\nSo a
   <!-- As a nice easy first Deep Storage Unit -->
   <ThingDef Name="LWM_Big_Shelf" ParentName="LWM_DeepStorage">
     <defName>LWM_BigShelf</defName><!-- name change to reduce chance of mod conflict.  See Updates.cs -->
-    <label>Big Shelf</label>
+    <label>big shelf</label>
     <description>A shelf for storing miscellaneous items, from artillery shells to artwork, from bionic arms to bricks, from chairs to corpses.  It doesn't ask questions, it just stores things.\n\nItems stored in this will not deteriorate, even if outside.\n\nThis shelf holds more than the regular one, and is not limited by weight (use your own judgement).</description>
     <thingClass>Building_Storage</thingClass>
     <graphicData>
@@ -257,7 +258,7 @@ This template demonstrates that whitespace is obeyed in the description.\n\nSo a
   </ThingDef>
   <ThingDef Name="LWM_VeryBigShelf" ParentName="LWM_DeepStorage">
     <defName>LWM_VeryBigShelf</defName>
-    <label>Very Big Shelves</label>
+    <label>very big shelves</label>
     <description>A set of tall covered shelves for storing miscellaneous items, from artillery shells to artwork, from bionic arms to bricks, from chairs to corpses.  It doesn't ask questions, it just stores things.\n\nPawns access the top shelves using a small rolling ladder (currently not pitured), so while many things can be stored here, it can take a while if you're putting a lot of tiny bottles on the top shelf.  Items stored in this will not deteriorate, even if outside.\n\nNote:  Use your own judgement about what you put here.  Grand Sculptures?  Probably don't ACTUALLY fit.  But if that's what you want here, you play you! I say go for it!</description>
     <thingClass>Building_Storage</thingClass>
     <graphicData>
@@ -309,7 +310,7 @@ This template demonstrates that whitespace is obeyed in the description.\n\nSo a
 
   <ThingDef Name="LWM_MealRack" ParentName="LWM_DeepStorage" >
     <defName>LWM_MealRack</defName>
-    <label>Meal Tray Rack</label>
+    <label>meal tray rack</label>
     <description>This is a tall tray rack; haulers carry meals and treats here for storage.</description>
     <graphicData>
       <texPath>skullywag/TrayRack/TrayRack</texPath>
@@ -356,7 +357,7 @@ This template demonstrates that whitespace is obeyed in the description.\n\nSo a
 
   <ThingDef Name="LWM_Food_Basket" ParentName="LWM_DeepStorage">
     <defName>LWM_Food_Basket</defName>
-    <label>Food Basket</label>
+    <label>food basket</label>
     <description>A mini-granary for storing raw food and plant matter.</description>
     <pathCost>100</pathCost>
     <graphicData>
@@ -409,7 +410,7 @@ This template demonstrates that whitespace is obeyed in the description.\n\nSo a
 
   <ThingDef Name="LWM_MeatHook" ParentName="LWM_DeepStorage"><!--LWM creation-->
     <defName>LWM_Meat_Hook</defName>
-    <label>Meat Hook</label>
+    <label>meat hook</label>
     <description>A tall metal frame with several hooks hanging from chains.  A simple crank allows hoisting several hanging things into the air.  A way to store the dead bodies of fellow animals you have killed, before cutting them up and consuming their flesh.  You monster.
 
 Note that you can only fit so many giant corpses into one space, even if you stack them.  The frame will only hold so much weight.</description>
@@ -482,7 +483,7 @@ Note that you can only fit so many giant corpses into one space, even if you sta
 
   <ThingDef Name="LWM_HayLoft" ParentName="LWM_DeepStorage"><!--LWM Creation-->
     <defName>LWM_Hayloft</defName>
-    <label>Hayloft</label>
+    <label>hayloft</label>
     <description>"A hayloft is a space above a barn, stable or cow-shed, traditionally used for storage of hay or other fodder for the animals below. Haylofts were used mainly before the widespread use of industrial sized farm machinery allowed creating very large haybales that cannot be easily lifted for storing..."  --Encyclopedia Galactica\n\nLet's be honest here.  Unless you're using some farming mods I don't know about, your colonists are probably making piles of hay by hand, which is slow, backbreaking labor.  You know what?  Most farming is slow, backbreaking labor, and your colonists can't even hire migrant workers from other colonies.  Treat farmers and farm workers with respect: they work a lot harder than YOU do ;) Amazing people, good food.\n\nThis structure can be used to store hay, silage, and various other plant materials off of damp floors.  You probably want to build it under a (very tall) roof.</description>
     <graphicData>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -535,7 +536,7 @@ Note that you can only fit so many giant corpses into one space, even if you sta
 
   <ThingDef Name="LWM_FabricHamper" ParentName="LWM_DeepStorage">
     <defName>LWM_FabricHamper</defName>
-    <label>Hampers</label>
+    <label>hampers</label>
     <description>This is a set of hampers made out of fabric.  The various pockets allow storing large amounts of diverse small items with ease.\n\nIf you really want to store fabric in bags, see the mod settings!</description>
     <graphicData>
       <texPath>skullywag/FabricHamper/FabricHamper</texPath>
@@ -602,7 +603,7 @@ Note that you can only fit so many giant corpses into one space, even if you sta
 
   <ThingDef Name="LWM_Pallet" ParentName="LWM_DeepStorage" >
     <defName>LWM_Pallet</defName>
-    <label>Pallet</label>
+    <label>pallet</label>
     <description>A flat pallet for packing things.  Does not protect against the weather.  Sometimes difficult to manage, but useful nonetheless.</description>
     <graphicData>
       <texPath>skullywag/Pallet/Pallet</texPath>
@@ -655,7 +656,7 @@ Note that you can only fit so many giant corpses into one space, even if you sta
 
   <ThingDef Name="LWM_Pallet_Covered" ParentName="LWM_Pallet" >
     <defName>LWM_Pallet_Covered</defName>
-    <label>Pallet with wrapping</label>
+    <label>pallet with wrapping</label>
     <description>A flat pallet for packing things.  Wrapping things up in thick oilcloth keeps items secure and organized.  You can pack more types of things on this pallet because you can wrap items together, altho this slows you down a little.</description>
     <statBases>
       <WorkToBuild>800</WorkToBuild>
@@ -703,7 +704,7 @@ Note that you can only fit so many giant corpses into one space, even if you sta
 
   <ThingDef Name="LWM_Skip"  ParentName="LWM_DeepStorage" ><!--Note: Name does NOT match defName: oops-->
     <defName>LWM_DeepStorage_Skip</defName>
-    <label>Skip</label>
+    <label>skip</label>
     <description>A large metal bin for tossing heavy things in.  These skips are not covered; they are open to the weather.
 
 Note: tossing large amounts of steel in willy-nilly means that it takes a while to find the steel you want later.  The mod author has abstracted that as a longer time for storing large stacks of items.  Pretend your pawns have to climb in and stack everything so the doggies can pick it up easily.</description>
@@ -760,7 +761,7 @@ Note: tossing large amounts of steel in willy-nilly means that it takes a while 
 
   <ThingDef Name="LWM_Medicine_Cabinet" ParentName="LWM_DeepStorage">
     <defName>LWM_Medicine_Cabinet</defName>
-    <label>Medicine Cabinet</label>
+    <label>medicine cabinet</label>
     <description>A set of cabinets and shelves for stocking medicines and drugs.  Recommended: keep an eye on children.</description>
     <pathCost>100</pathCost>
     <graphicData>
@@ -815,7 +816,7 @@ Note: tossing large amounts of steel in willy-nilly means that it takes a while 
 
   <ThingDef Name="LWM_Clothing_Rack" ParentName="LWM_DeepStorage">
     <defName>LWM_Clothing_Rack</defName>
-    <label>Clothing Rack</label>
+    <label>clothing rack</label>
     <description>A covered rack for storing clothing for easy, quick access and a tidy room.</description>
     <graphicData>
       <texPath>skullywag/ClothingRack/ClothingRack</texPath>
@@ -863,7 +864,7 @@ Note: tossing large amounts of steel in willy-nilly means that it takes a while 
   
   <ThingDef ParentName="LWM_DeepStorage">
 	<defName>LWM_Safe</defName>
-	<label>Safe</label>
+	<label>safe</label>
 	<description>A secure, lockable box for safely storing valuables against theft and/or damage from fire.\n\nNote: protection from fire not yet implemented)</description>
 	<graphicData>
 		<texPath>sumghai/safe/safe</texPath>

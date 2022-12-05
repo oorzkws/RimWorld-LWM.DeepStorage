@@ -29,7 +29,8 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.4.3563" />
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.4.3566-beta" />
+    <PackageReference Include="UnlimitedHugs.Rimworld.HugsLib" Version="10.0.1" />
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="IHoldMultipleThings"><!-- Mehni's PickUpAndHold Compatibility -->
@@ -65,6 +66,7 @@
       <HintPath>..\..\RimWorld\RimWorldLinux_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <PackageReference Include="Lib.Harmony" Version="2.2.2" />
     <PackageReference Include="RimWorld.MultiplayerAPI">
       <Private>False</Private>
       <Version>0.4.0</Version>

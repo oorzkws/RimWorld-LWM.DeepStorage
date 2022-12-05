@@ -4,7 +4,7 @@
   <!--       also available for lazy colonists -->
   <ThingDef Name="LWM_WeaponsCabinet" ParentName="LWM_DeepStorage" >
     <defName>LWM_WeaponsCabinet</defName>
-    <label>Weapons Cabinet</label>
+    <label>weapons cabinet</label>
     <description>A sturdy cabinet for storing multiple weapons. Items stored in this will not deteriorate, even if outside.</description>
     <graphicData>
       <texPath>sumghai/weaponsCabinet</texPath>
@@ -68,7 +68,7 @@
   <!--   or for anyone who builds some good careful metal-working tools -->	
   <ThingDef Name="LWM_WeaponsLocker" ParentName="LWM_DeepStorage" ><!--TODO: make this non-quality based?-->
     <defName>LWM_WeaponsLocker</defName>
-    <label>Weapons Locker</label>
+    <label>weapons locker</label>
     <description>A high-capacity metal locker for securely storing many weapons. Items stored in this will not deteriorate, even if outside.</description>
     <graphicData>
       <texPath>sumghai/weaponsLocker</texPath>
